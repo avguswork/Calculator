@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Калькулятор</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="fone">
+            <div class="calculator">
+                <div class="calculator_display_block">
+                    <input class="input" id="input" type="number"  onkeydown="keyHeandler(event)">
+                </div>
+                <h2>CITIZEN SDC-444s</h2>
+                <div class="calculator_button_block">
+                    
+                    <div class="button_column">
+                        <button class="button" id="onButton">ON</button>
+                        <button class="button numb" >7</button>
+                        <button class="button numb" id="four">4</button>
+                        <button class="button numb" id="one">1</button>
+                        <button class="button numb" id="zero">0</button>
+                    </div>
+                    <div class="button_column">
+                        <button class="button" id="offButton">OFF</button>
+                        <button class="button numb" id="eight">8</button>
+                        <button class="button numb" id="five">5</button>
+                        <button class="button numb" id="two">2</button>
+                        <button class="button numb">.</button>
+                    </div>
+                    <div class="button_column">
+                        <button class="button" id="x2">X2</button>
+                        <button class="button numb" id="nine">9</button>
+                        <button class="button numb" id="six">6</button>
+                        <button class="button numb" id="three">3</button>
+                        <button class="button" id="rootButton">√</button>
+                    </div>
+                    <div class="button_column">
+                        <button class="button" id="divide">/</button>
+                        <button class="button" id="multiply">*</button>
+                        <button class="button" id="minus">-</button>
+                        <button class="button" id="plus">+</button>
+                        <button class="button" id="sum">=</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
