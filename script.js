@@ -182,7 +182,7 @@ function aqual(){
 
                 
         }
-        input.value = parseFloat(result.toPrecision(5));
+        input.value = parseFloat(result.toPrecision(14));
         console.log(result)
         a = input.value;
         input.focus();
