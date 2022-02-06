@@ -182,7 +182,7 @@ function aqual(){
 
                 
         }
-        input.value = result.toFixed(4);
+        input.value = result.toPrecision();
         console.log(result)
         a = input.value;
         input.focus();
